@@ -1,3 +1,3 @@
-# Facebook-scraper
+# Facebook-scraper :gorilla: :paw_prints: :panda_face:
 
-El proyecto utiliza la herramienta de web scraping "facebook-scraper" en Python para detectar y monitorear el comercio y tráfico ilegal de animales en la plataforma de Facebook. :gorilla: :paw_prints: 	:panda_face:
+El proyecto es una implementación de la herramienta de web scraping "facebook-scraper" en el lenguaje de programación Python. El objetivo del proyecto es utilizar esta herramienta para detectar la presencia de comercio y tráfico ilegal de animales en las redes sociales, específicamente en Facebook. El proyecto busca extraer datos relevantes de publicaciones y perfiles que puedan indicar la venta o tráfico ilegal de animales, para posteriormente analizarlos y generar alertas en caso de detectar patrones sospechosos. En general, el proyecto busca utilizar la analítica de datos para prevenir y combatir el comercio ilegal de animales a través de la identificación temprana de actividades sospechosas en Facebook.
