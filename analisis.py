@@ -1,10 +1,6 @@
-from facebook_scraper import get_profile
+from facebook_scraper import get_posts
 
-profile_id = '100003853222559' #id de mi perfil personal
+post_url = "https://www.facebook.com/zuck/posts/10112681480907401"
+post = get_posts(post_urls=[post_url], pages=1).__next__()
 
-
-profile = get_profile(profile_id, cookies="facebook.com_cookies.txt",   friends=True) 
-
-
-for key, value in profile.items():
-    print(key, ": ", value) #veremos que informacion nos devuelve la consulta
+print(post)
